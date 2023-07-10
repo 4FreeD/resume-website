@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bohdan Marchuk | Resume </title>
+        <meta charset="UTFF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="code.js"></script>
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="stylesheet" 
+              href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" 
+              href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" 
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!-- Zdjęcie po lewej -->
+        <nav class="w3-sidebar w3-hide-medium w3-hide-small" 
+             style="width: 40%">
+            <div class="bgimg"></div>
+        </nav>
+        <!-- Koniec zdjęcia po lewej -->
+
+        <!-- Sidebar -->
+        <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge"
+             style="display: none; padding-top: 150px; right: 0; z-index: 2;"
+             id="mySidebar"> 
+            <a href="javascript:void(0)" 
+            onclick="closeNav()" 
+            class="w3-button w3-black w3-xxxlarge w3-display-topright"
+            style="padding: 0 12px">
+                <i class="fa fa-remove"></i>
+            </a>
+            <div class="w3-bar-block w3-center">
+                <a href="#" 
+                   class="w3-bar-item w3-button w3-text-grey w3-hover-black"
+                   onclick="closeNav()">Home</a>
+                <a href="#about" 
+                   class="w3-bar-item w3-button w3-text-grey w3-hover-black"
+                   onclick="closeNav()">About</a>
+                <a href="#skills" 
+                   class="w3-bar-item w3-button w3-text-grey w3-hover-black"
+                   onclick="closeNav()">My skills</a>
+                <a href="#contact" 
+                   class="w3-bar-item w3-button w3-text-grey w3-hover-black"
+                   onclick="closeNav()">Contact</a>
+            </div>
+        </nav>
+        <!-- Koniec sidebar -->
+
+        <!-- Kontener główny -->
+        <div class="w3-main w3-padding-large" 
+             style="margin-left: 40%">
+            <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black"
+                  style="width: auto; right: 0;" 
+                  onclick="openNav()"><i class="fa fa-bars"></i>
+            </span>
+
+            <!-- Header -->
+            <header class="w3-container w3-center" style="padding: 128px 16px"> 
+                <h1 class="w3-jumbo">Bohdan Marchuk</h1>
+                <p>Software Engineer</p>
+                <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+                    <i class="fa fa-download"></i>  Download resume
+                </button>
+            </header>
+            <!-- End of header -->
+
+            <!-- About section -->
+            <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+                <h2>About</h2>
+                <hr class="w3-opacity">
+                <p>With over a decade of experience in the software industry, I, Bohdan Marchuk, have honed my expertise in various programming languages and development methodologies. My proficiencies span both back-end and front-end development, making me a versatile asset in any team.
+        Throughout my career, my ability to analyze and solve complex problems has been one of my strongest attributes. From minor bugs to intricate system issues, I employ logical thinking and meticulous attention to detail to root out and address any problems.
+        I've always been a strong advocate for the use of agile methodologies. I believe in the power of iterative design to deliver projects that align with customer needs and exceed their expectations. My approach to project management is organized and systematic, where I break down larger objectives into manageable tasks for my team.
+        Being a team leader, I take pride in creating a cooperative and productive work environment. I prioritize clear communication and mutual respect among my colleagues, fostering a conducive atmosphere for innovation and success.
+        Quality is something I never compromise on. My dedication to testing and refinement ensures that every piece of software I develop is robust, reliable, and user-focused. I consistently strive to deliver software solutions that are not just functional but also stable and efficient.
+        In summary, as a seasoned software engineer, my technical acumen, problem-solving skills, leadership attributes, and unwavering commitment to quality have shaped me into who I am today. With my extensive experience and proven track record, I am fully equipped to take on even the most challenging technical projects and deliver superior solutions.
+                </p>
+            </div>
+            <!-- End of about section -->
+
+            <!-- My skills section -->
+            <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="skills">
+                <h3 class="w3-padding-16">My skills</h3>
+                <hr class="w3-opacity">
+                <p class="w3-wide">Fotografia</p>
+                <div class="w3-light-grey">
+                    <div class="w3-container w3-center w3-padding-small w3-dark-grey"
+                    style="width: 95%">95%</div>
+                </div>
+                <p class="w3-wide">Programowanie</p>
+                <div class="w3-light-grey">
+                    <div class="w3-container w3-center w3-padding-small w3-dark-grey"
+                    style="width: 60%">60%</div>
+                </div>
+                <p class="w3-wide">Web design</p>
+                <div class="w3-light-grey">
+                    <div class="w3-container w3-center w3-padding-small w3-dark-grey"
+                    style="width:45%">45%</div>
+                </div>
+            </div>
+
+            <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+                <div class="w3-quarter w3-section">
+                    <span>14+</span><br>
+                    Partners
+                </div>
+                <div class="w3-quarter w3-section">
+                    <span>14+</span><br>
+                    Partners
+                </div>
+                <div class="w3-quarter w3-section">
+                    <span>14+</span><br>
+                    Partners
+                </div>
+                <div class="w3-quarter w3-section">
+                    <span>14+</span><br>
+                    Partners
+                </div>
+            </div>
+            <!-- End of skills section -->
+
+            <!-- Contact section -->
+            <div class="w3-padding-32 w3-content w3-text-grey" 
+                 id="contact" 
+                 style="margin-bottom: 64px">
+                <h2>Contact me</h2>
+                <hr class="w3-opacity">
+                <div>
+                    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right">
+                    </i> Warszawa, Poland</p>
+                    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right">
+                    </i> Phone: +48 321 321 321</p>
+                    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right">
+                    </i> Email: bohdan@gmail.com</p>
+                </div>
+
+                <br>
+                <p>Wyslij wiadomosc do mnie:</p>
+                <form target="_blank" id="contact-form">
+                    <p><input class="w3-input w3-padding-16 w3-border" 
+                              type="text" 
+                              placeholder="Email"
+                              required
+                              name="Email"
+                              id="email"></p>
+                    <p><input class="w3-input w3-padding-16 w3-border" 
+                            type="text" 
+                            placeholder="Temat"
+                            required
+                            name="Subject"
+                            id="subject"></p>
+                    <p><input class="w3-input w3-padding-16 w3-border" 
+                            type="text" 
+                            placeholder="Wiadomosc"
+                            required
+                            name="Message"
+                            id="message"></p>
+                    <p>
+                        <button class="btn btn-outline-danger" 
+                        type="submit" 
+                        onclick="sentEmail()">
+                            <i class="fa fa-paper-plane">  Wyslij wiadomosc</i>
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <!-- End of contact section -->
+
+            <!-- Footer section -->
+            <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge"
+                    style="margin: -24px">
+                    <a href="https://facebook.com" 
+                    target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i>
+                    </a>
+                    <a href="https://instagram.com" 
+                    target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i>
+                    </a>
+                    <a href="https://linkedin.com" 
+                    target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i>
+                    </a>
+            </footer>
+            <!-- End of footer section -->
+        </div>
+        <!-- Koniec kontenera głównego -->
+    </body>
+</html>
